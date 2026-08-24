@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+       body {
+           background-color: rgb(40, 91, 91);
+           background-image: linear-gradient(to lefth, rgb(127, 127, 189), rgba(227, 54, 218, 0.536), white);
+       }
+       h1 {
+           color: white;
+           text-align: center;
+           box-shadow: 02px 10px 50px rgba(215, 217, 223, 0.5);
+           border-left: 5px solid rgb(0, 208, 255);
+           border-radius: 20px;
+           transition: all 10s ease;
+           transform: rotate3d(0, 1, 0, 10deg);
+       }
+
+       h2 {
+           color: white;
+           text-align: center;
+           flex: auto;
+       }
+       img {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+
+             
+       }
+
+       p {
+           color: rgb(0, 0, 0);
+           font-size: medium;
+           text-align: justify;
+       }
+       a {
+           color: white;
+           text-decoration: none;
+       }
+    p {
+        color: white;
+        font-size: medium;
+        text-align: justify;
+        font-family: Arial, sans-serif;
+    }
+    *p {
+        color: rgb(59, 19, 19);
+        font-size: medium;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    audio
+    
+    </style>
+</head>
+<body>
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu? </h2>
+    <img src="Jose rodolfo.jpg" alt="Minha foto" style="width: 200px; height: 200px; border-radius: 50%;">
+    <p>Meu nome é José Rodolfo, tenho 19 anos e sou estudante do modulo 01 do professor gustavo guanabara desde o mêS de Janeiro. É um curo bastante explicativo, com intuíto de  evoluir sempre o aluno que esta aprendendo. Busco sempre me dedicar as aulas do mesmo. Logo abaixo irei deixar as redes sociais dele para darem aquela conferida!!!
+    </p>
+    <h1>Redes sociais do Professor Guanabara;</h1>
+   <ul>
+   <li><p>Voce pode acessar o <a href="https://www.youtube.com/watch?v=suL56Mdx22Y&list=PL6Jz-JGehwch9RGfc1Cvz63S4AB2o1FzM&index=31" target="_blank" rel="external"> canal do Guanabara</a></li></p>
+   <li><p>Voce pode tambem acessar o <a href="https://www.instagram.com/gustavoguanabara/" target="_blank" rel="external"> instagram do Guanabara</a></p></li>
+   </ul>
+   <h1>Escute o PODCAST do Guanabara aqui</h1>
+   <audio src="Mídias/guanacast-33.mp3" controls autoplay></audio>
+ 
+   <script>
+    let nomeInput = document.getElementById("nomeInput");
+    window.prompt("Digite seu nome:");
+    window.alert("Bem-vindo ao meu site, " + nomeInput.value + "!");
+   </script>
+</body>
+</html>

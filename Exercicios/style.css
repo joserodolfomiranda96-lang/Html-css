@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*EM HTML É CLASS E EM CSS É PONTO*/
+body{
+    background-color: rgb(147, 213, 147);
+}
+h1{
+    color: rgb(0, 0, 0);
+    
+}
+h2{
+    color: rgb(49, 5, 182);
+}
+
+ .basico{
+    color: rgb(253, 253, 253);
+ }
+ .intermediario{
+    color: rgb(103, 21, 93);
+ }
+ .avancado{
+    color: rgba(16, 0, 243, 0.448);
+ }
+ .central{
+    color: rgb(114, 32, 32);
+    text-align: center;
+ }
+ .segundo{
+    color: rgb(99, 36, 36);
+    text-align: center;
+ }
